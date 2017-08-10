@@ -4144,6 +4144,10 @@ declare module monaco.languages {
 		 */
 		documentation?: string;
 		/**
+		 * The editor command run upon acceptance of this item.
+		 */
+		command?: Command;
+		/**
 		 * A string that should be used when comparing this item
 		 * with other items. When `falsy` the [label](#CompletionItem.label)
 		 * is used.
