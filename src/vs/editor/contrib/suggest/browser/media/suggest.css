@@ -143,6 +143,10 @@
 
 /** Styles for each row in the list **/
 
+.monaco-editor .suggest-widget.no-icons .icon {
+	display: none !important;
+}
+
 .monaco-editor .suggest-widget .monaco-list .monaco-list-row .icon {
 	display: block;
 	height: 16px;
